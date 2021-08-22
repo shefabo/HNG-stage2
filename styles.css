@@ -6,7 +6,7 @@
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background:  url(images/fedheader.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,6 +38,7 @@ li {
     list-style: none;
     margin: 10px;
     display: inline;
+    color: #e7332b;
 }
 table {
     border-spacing: 50px;
@@ -58,13 +59,30 @@ p {
 .sub-wrapper {
     margin-top: 50px;
 }
+footer {
+    background-color:grey;
+    height: 200px;
+    color: white;
+}
+.footerLogo {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.copyright {
+    position: relative;
+    ;
+}
+.copyright p {
+    text-align: center;
+    
+}
 @media (max-width: 428px) {
     header {
-        position: relative;
         flex-direction: column;
     }
     .heading {
-        margin: 2px;
+        margin: 10px;
     }
     * {
         font-size: 12px;
